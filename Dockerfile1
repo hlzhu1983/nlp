@@ -1,7 +1,6 @@
 FROM springionic/pyhanlp:v1.1
 
-RUN pip install 
-        fastapi \
+RUN pip install fastapi \
         uvicorn \
         jupyter==1.0.0 \
         jupyter-http-over-ws==0.0.8 \
